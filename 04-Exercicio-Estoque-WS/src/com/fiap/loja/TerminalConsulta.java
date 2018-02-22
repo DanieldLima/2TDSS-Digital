@@ -7,15 +7,12 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Scanner;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.fiap.loja.to.ProdutoTO;
 
 import br.com.fiap.config.PropertySingleton;
 
 public class TerminalConsulta {
-	
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		// Recuperar a data do sistema e formata
