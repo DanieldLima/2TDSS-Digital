@@ -1,0 +1,11 @@
+2018-02-21 20:05:29 INFO  PropertySingleton:19 - Carregando o arquivo de propriedade do sistema
+2018-02-21 20:05:29 ERROR PropertySingleton:22 - Arquivo de configuração não carregado
+2018-02-21 20:21:36 INFO  PropertySingleton:19 - Carregando o arquivo de propriedade do sistema
+2018-02-21 20:21:36 ERROR PropertySingleton:22 - Arquivo de configuração não carregado
+2018-02-21 20:22:29 INFO  TerminalConsulta:22 - Carregando o sistema
+2018-02-21 20:22:29 INFO  PropertySingleton:19 - Carregando o arquivo de propriedade do sistema
+2018-02-21 20:22:29 ERROR PropertySingleton:22 - Arquivo de configuração não carregado
+2018-02-21 20:25:10 INFO  TerminalConsulta:22 - Carregando o sistema
+2018-02-21 20:25:10 INFO  PropertySingleton:19 - Carregando o arquivo de propriedade do sistema
+2018-02-21 20:25:10 ERROR PropertySingleton:22 - Arquivo de configuração não carregado
+2018-02-21 20:25:22 WARN  TerminalConsulta:57 - Produto não encontrado
