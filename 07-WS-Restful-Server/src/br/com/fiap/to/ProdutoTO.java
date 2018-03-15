@@ -35,9 +35,8 @@ public class ProdutoTO {
 		super();
 	}
 
-	public ProdutoTO(int codigo, String nome, String descricao, double preco, boolean disponivel) {
+	public ProdutoTO(String nome, String descricao, double preco, boolean disponivel) {
 		super();
-		this.codigo = codigo;
 		this.nome = nome;
 		this.descricao = descricao;
 		this.preco = preco;
