@@ -40,6 +40,7 @@ public class ProdutoResource {
 	}
 	
 	@POST
+	@Path("/cadastrar")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Response cadastrar(ProdutoTO produto, @Context UriInfo uri) {		
 		
