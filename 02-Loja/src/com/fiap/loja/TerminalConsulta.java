@@ -38,7 +38,7 @@ public class TerminalConsulta {
 			}
 			
 			for (int i = 0; i < addAsterisco.size(); i++) {				
-				System.out.print(addAsterisco.get(i));			
+				System.out.print(addAsterisco.get(i));
 			}
 			
 			System.out.println("\n\n1 - Pesquisar");
