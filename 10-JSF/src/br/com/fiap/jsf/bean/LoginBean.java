@@ -4,38 +4,33 @@ import javax.faces.bean.ManagedBean;
 
 @ManagedBean
 public class LoginBean {
-	
-	private String usuario;
-	private String senha;
 
+	private String usuario;
+	
+	private String senha;
 	
 	public void logar() {
-		if ("FIAP".equals(getUsuario()) && "FIAP2018".equals(getSenha())) {
-			System.out.println("Sucesso!");
-			
+		if (usuario.equals("FIAP") && senha.equals("FIAP2018")) {
+			System.out.println("Logado!");
 		} else {
-			System.out.println("Dados inseridos, incorretos!");
-			
+			System.out.println("Usuário e/ou senha inválidos");
 		}
+	}
+
+	public String getSenha() {
+		return senha;
+	}
+
+	public void setSenha(String senha) {
+		this.senha = senha;
 	}
 
 	public String getUsuario() {
 		return usuario;
 	}
 
-
 	public void setUsuario(String usuario) {
 		this.usuario = usuario;
-	}
-
-
-	public String getSenha() {
-		return senha;
-	}
-
-
-	public void setSenha(String senha) {
-		this.senha = senha;
 	}
 
 }

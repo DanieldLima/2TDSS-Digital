@@ -6,7 +6,7 @@ import javax.faces.bean.ManagedBean;
 public class IndexBean {
 
 	private String nome;
-
+	
 	public void exibirNome() {
 		System.out.println(getNome());
 	}
@@ -18,5 +18,5 @@ public class IndexBean {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-
+	
 }

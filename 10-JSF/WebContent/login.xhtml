@@ -3,21 +3,20 @@
 	xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://java.sun.com/jsf/core">
-
 <h:head>
-	<title>JSF - Introdução - Exercicio</title>
+	<title>Login</title>
 </h:head>
 <h:body>
+	<h1>Login</h1>
 	<h:form>
-		<h1>Login</h1>
 		<h:panelGrid columns="2">
-			<h:outputLabel value="Usuario" for="password" />
-			<h:inputText value="#{loginBean.usuario}" id="password" />
-
-			<h:outputLabel value="Senha" for="senha" />
-			<h:inputSecret value="#{loginBean.senha}" id="senha" />
-
-			<h:commandButton action="#{loginBean.logar}" value="Enviar dados" />
+			<h:outputLabel value="Login" for="login"/>
+			<h:inputText value="#{loginBean.usuario}" id="login"/>
+			
+			<h:outputLabel value="Senha" for="senha"/>
+			<h:inputSecret value="#{loginBean.senha}" id="senha"/>
+			
+			<h:commandButton action="#{loginBean.logar}" value="Entrar" />
 		</h:panelGrid>
 	</h:form>
 </h:body>
